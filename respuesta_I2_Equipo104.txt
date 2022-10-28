@@ -13,3 +13,67 @@ Se puede pero se genera un error en el fork.txt ya que ambos lo editaron
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 No, unicamente se sumaran los datos que se hayan editado en el repositorio original
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos ,
+
+- BETA
+Se crea el repo en github ( publico ),  agregando el readme
+git clone link ( repo del beta )
+cd TP_SO_i2_104
+cat > fork.txt - ctrl z
+git add . 
+git commit -m "beta"
+git push
+
+- GAMMA
+git clone link ( repo del beta forkeado )
+cd TP_SO_i2_104
+ipconfig
+nano fork.xt
+git add . 
+git commit -m "gamma"
+git push
+
+- ALFA
+git clone link ( repo del beta forkeado )
+cd TP_SO_i2_104
+ipconfig
+nano fork.xt
+git add . 
+git commit -m "alfa"
+git push
+
+- BETA
+cat > NuevoDato.txt - ctrl z
+git add . 
+git commit -m "beta"
+git push
+
+- GAMA Y ALFA
+git remote add upstream
+git fetch upstream
+git merge upstream/main
+
+- GAMMA
+git fetch upstream
+git merge upstream/main
+nano respuesta_I2_Equipo104.txt
+git add . 
+git commit -m "beta"
+git push
+
+- BETA
+nano respuesta_I2_Equipo104.txt
+git add . 
+git commit -m "beta"
+git push
+
+- ALFA
+
+git fetch upstream
+git merge upstream/main
+nano respuesta_I2_Equipo104.txt
+git add . 
+git commit -m "beta"
+git push
