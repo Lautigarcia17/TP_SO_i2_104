@@ -1,2 +1,7 @@
 Marcos Cabrera
-Fabricio Maggiaiuolo
+Fabrizio Maggiaiuolo
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Utilizando el comando : git fetch (link del repositorio forkeado)
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Se puede pero se genera un error en el fork.txt ya que ambos lo editaron
